@@ -1,0 +1,26 @@
+body{
+    background-image: url(photo-1614294149010-950b698f72c0.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+#t{
+    text-align: center;
+    color: white;
+    animation-duration:10s;
+    animation-name: ani1;
+    animation-iteration-count: infinite;
+}
+@keyframes ani1 {
+    0%{color: white;}
+    10%{color: rgb(243, 82, 82);}
+    20%{color: rgb(252, 149, 53);}
+    30%{color: rgb(252, 249, 53);}
+    40%{color: rgb(93, 252, 53);}
+    50%{color: rgb(53, 252, 209);}
+    60%{color: rgb(53, 179, 252);}
+    70%{color: rgb(83, 53, 252);}    
+    80%{color: rgb(212, 53, 252);}    
+    90%{color: rgb(252, 53, 152);}
+    100%{color: rgb(252, 53, 53);}    
+}
